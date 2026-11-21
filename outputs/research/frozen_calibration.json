@@ -1,0 +1,122 @@
+{
+  "candidate_008": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.01849742640612377,
+      "sigmoid": 0.018488482482214564,
+      "isotonic": 0.018557206702498573
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_009": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.01864787759021424,
+      "sigmoid": 0.018633810343583447,
+      "isotonic": 0.018591634579322395
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_018": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.018382403845908002,
+      "sigmoid": 0.01837778211946943,
+      "isotonic": 0.018487275708896633
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_019": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.01855885532569755,
+      "sigmoid": 0.018542398614653236,
+      "isotonic": 0.018480132313030903
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_020": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.0170761618579314,
+      "sigmoid": 0.017085296781472154,
+      "isotonic": 0.01697614535524305
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_021": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.0173418311021597,
+      "sigmoid": 0.01731845806666063,
+      "isotonic": 0.016916493613442853
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_033": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.01675130134368542,
+      "sigmoid": 0.016782507515674606,
+      "isotonic": 0.01677567689256659
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_034": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.017163931278572322,
+      "sigmoid": 0.01720641001062654,
+      "isotonic": 0.017073070127342528
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_038": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.01967465045122376,
+      "sigmoid": 0.019275782069157393,
+      "isotonic": 0.01924965822761558
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_044": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.01644094513339147,
+      "sigmoid": 0.016415521919140665,
+      "isotonic": 0.016495538286423132
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_049": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.01645027350037127,
+      "sigmoid": 0.016458361007791675,
+      "isotonic": 0.016507030660953204
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  },
+  "candidate_055": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.016459906145622632,
+      "sigmoid": 0.016459461393301053,
+      "isotonic": 0.01656580932868117
+    },
+    "fit_rows": 31564,
+    "assessment_rows": 42732
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "candidate_057",
+  "spec": {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 4
+  },
+  "selection": {
+    "auc": 0.8496429718482135,
+    "ap": 0.2309287661570217,
+    "brier": 0.11386672497627105,
+    "precision_top10": 0.11543684925305568,
+    "recall_top10": 0.6002824858757062,
+    "mean": 0.26698140260533965
+  },
+  "seconds": 2.4948718547821045
+}

@@ -1,0 +1,7 @@
+{
+  "california_cells": 660,
+  "california_slope_finite_cells": 660,
+  "california_cell_days": 724020,
+  "model_ready_modis_slope_cell_days": 721423,
+  "model_ready_fraction": 0.9964130825115328
+}

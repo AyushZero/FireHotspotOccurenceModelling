@@ -1,0 +1,18 @@
+# Reproduce the empirical analysis with Python 3.11
+numpy==2.3.4
+pandas==2.3.3
+xarray==2026.2.0
+netCDF4==1.7.4
+scipy==1.16.2
+rasterio==1.4.4
+geopandas==1.1.1
+shapely==2.1.2
+scikit-learn==1.7.2
+joblib==1.5.2
+matplotlib==3.10.7
+PyYAML==6.0.3
+xgboost==3.2.0
+lightgbm==4.6.0
+imbalanced-learn==0.14.1
+Jinja2==3.1.6
+requests==2.31.0

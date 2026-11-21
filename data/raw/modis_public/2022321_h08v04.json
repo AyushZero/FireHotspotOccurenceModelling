@@ -1,0 +1,10 @@
+{
+  "date": "2022-11-17",
+  "tile": [
+    8,
+    4
+  ],
+  "status": "no source granule in public archive",
+  "unsigned_prefix": "https://modiseuwest.blob.core.windows.net/modis-061-cogs/MOD13A1/08/04/2022321/",
+  "sha256": "50515b25d0cf5331a9701867c5d2532d7471e58ec3679ab9d5a62e25d3586844"
+}

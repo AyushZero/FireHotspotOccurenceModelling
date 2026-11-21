@@ -1,0 +1,82 @@
+{
+  "model_006": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.01969387424484074,
+      "sigmoid": 0.019785039702601117,
+      "isotonic": 0.01978300650411764
+    }
+  },
+  "model_024": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.01939384598314897,
+      "sigmoid": 0.019413382438629435,
+      "isotonic": 0.019485447122854438
+    }
+  },
+  "model_245": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.01970699777363533,
+      "sigmoid": 0.019905204554296237,
+      "isotonic": 0.019524343244043146
+    }
+  },
+  "model_174": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.019018425103303344,
+      "sigmoid": 0.018994527487484127,
+      "isotonic": 0.019136454499484007
+    }
+  },
+  "model_156": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.018989796079768275,
+      "sigmoid": 0.018940799645796938,
+      "isotonic": 0.019006383786216535
+    }
+  },
+  "model_167": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.01909350396165133,
+      "sigmoid": 0.019037916611915447,
+      "isotonic": 0.01913725533609799
+    }
+  },
+  "ensemble": {
+    "kind": "sigmoid",
+    "assessment_brier": {
+      "identity": 0.019006206065895558,
+      "sigmoid": 0.018942063700850373,
+      "isotonic": 0.01900277433826097
+    }
+  },
+  "baseline_persistence": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.020401681410745144,
+      "sigmoid": 0.020462074124757226,
+      "isotonic": 0.020468514601093106
+    }
+  },
+  "baseline_climatology": {
+    "kind": "isotonic",
+    "assessment_brier": {
+      "identity": 0.022604014790886882,
+      "sigmoid": 0.022428964583664515,
+      "isotonic": 0.02234500754837458
+    }
+  },
+  "baseline_weather": {
+    "kind": "identity",
+    "assessment_brier": {
+      "identity": 0.023311408792305647,
+      "sigmoid": 0.023330502611143226,
+      "isotonic": 0.023322985947103293
+    }
+  }
+}

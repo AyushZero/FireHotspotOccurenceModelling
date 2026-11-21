@@ -1,0 +1,18 @@
+{
+  "id": "candidate_045",
+  "spec": {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 4
+  },
+  "selection": {
+    "auc": 0.8417451032374037,
+    "ap": 0.22542146369244292,
+    "brier": 0.12235698044770874,
+    "precision_top10": 0.11444092349479403,
+    "recall_top10": 0.5951035781544256,
+    "mean": 0.30333644192584713
+  },
+  "seconds": 26.522751808166504
+}

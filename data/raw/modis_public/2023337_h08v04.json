@@ -1,0 +1,14 @@
+{
+  "date": "2023-12-03",
+  "tile": [
+    8,
+    4
+  ],
+  "sources": {
+    "500m_16_days_NDVI": "https://modiseuwest.blob.core.windows.net/modis-061-cogs/MOD13A1/08/04/2023337/MOD13A1.A2023337.h08v04.061.2023354005420_500m_16_days_NDVI.tif",
+    "500m_16_days_NIR_reflectance": "https://modiseuwest.blob.core.windows.net/modis-061-cogs/MOD13A1/08/04/2023337/MOD13A1.A2023337.h08v04.061.2023354005420_500m_16_days_NIR_reflectance.tif",
+    "500m_16_days_MIR_reflectance": "https://modiseuwest.blob.core.windows.net/modis-061-cogs/MOD13A1/08/04/2023337/MOD13A1.A2023337.h08v04.061.2023354005420_500m_16_days_MIR_reflectance.tif",
+    "500m_16_days_pixel_reliability": "https://modiseuwest.blob.core.windows.net/modis-061-cogs/MOD13A1/08/04/2023337/MOD13A1.A2023337.h08v04.061.2023354005420_500m_16_days_pixel_reliability.tif"
+  },
+  "sha256": "1353b73ddcf98fffeab13f5ea04c92d417c5f7ee741fcbc7256ff7418d753253"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "frozen before v2 candidate results",
+  "training": "2021",
+  "selection": "2022 days 1-14 of each month",
+  "calibration": "2022 days 22-end of each month",
+  "unused_gap": "days 15-21 of each month; next month boundaries have no additional purge",
+  "primary_selection_metric": "average precision; tie break ROC AUC",
+  "benchmark": "2023 already examined in previous study; not a fresh independent test",
+  "search": "matched constrained/unconstrained logistic; spline additive; environmental interactions; softened multiplicative; RF/XGB/LGBM class handling",
+  "calibration_rule": "choose identity, sigmoid-logit or isotonic using first half of calibration days to fit and remaining calibration days to assess Brier; refit selected mapping on all calibration rows",
+  "bootstrap": "Full benchmark rows; paired circular moving day blocks of length 7 and 30; 300 replicates each; paired AUC and AP intervals",
+  "random_seed": 42,
+  "scope": "bounded reproducible search; no assertion of global optimality",
+  "candidate_count": 61,
+  "independent_test_availability": "Included MODIS ends December 2023; no complete later nine-driver dataset available. No independent generalization claim."
+}

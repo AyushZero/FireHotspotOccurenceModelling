@@ -1,0 +1,28 @@
+{
+  "source": "NASA FIRMS area API, VIIRS_SNPP_SP",
+  "bbox": [
+    -124,
+    32,
+    -114,
+    42
+  ],
+  "years": {
+    "2024": {
+      "rows": 43901,
+      "chunks": 74,
+      "first_date": "2024-01-01",
+      "last_date": "2024-12-31",
+      "sha256": "a450470c7a3d1347e15904869c2c1f40359e79631414f9f268900e8c08a5700b",
+      "type_counts": {
+        "0": 37299,
+        "2": 6569,
+        "3": 33
+      },
+      "confidence_counts": {
+        "n": 37569,
+        "h": 3616,
+        "l": 2716
+      }
+    }
+  }
+}

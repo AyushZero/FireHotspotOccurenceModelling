@@ -1,0 +1,20 @@
+{
+  "primary_name": "XGBoost",
+  "auc": "0.859",
+  "ap": "0.2860",
+  "brier": "0.01849",
+  "recall": "60.0",
+  "precision": "13.39",
+  "mean": "0.0224",
+  "bss": "0.154",
+  "hits": "3,214",
+  "n_selected": "24,003",
+  "rows": "Random Forest & 0.2365 & 0.859 & 0.2919 & 0.01835 & 60.7 \\\\\nLightGBM & 0.2344 & 0.859 & 0.2864 & 0.01843 & 59.9 \\\\\n\\textbf{XGBoost} & 0.2375 & 0.859 & 0.2860 & 0.01849 & 60.0 \\\\\nOriginal RF & --- & 0.860 & 0.2771 & 0.01876 & 60.6 \\\\\nSpline additive & 0.2166 & 0.839 & 0.2648 & 0.01875 & 57.0 \\\\\nInteraction logistic & 0.2030 & 0.824 & 0.2395 & 0.01891 & 51.8 \\\\\nLog-history logistic & 0.2029 & 0.816 & 0.2370 & 0.01894 & 51.8 \\\\\nLog-history logistic constrained & 0.1972 & 0.784 & 0.2367 & 0.01887 & 49.0 \\\\\nPersistence & --- & 0.762 & 0.1566 & 0.01942 & 59.0 \\\\\nStandardized logistic & 0.1212 & 0.758 & 0.1479 & 0.02053 & 37.6 \\\\\nOriginal standardized LR & --- & 0.758 & 0.1477 & 0.02052 & 37.6 \\\\\nOriginal constrained additive & --- & 0.711 & 0.1456 & 0.02070 & 31.2 \\\\\nStandardized logistic constrained & 0.1101 & 0.711 & 0.1368 & 0.02030 & 31.2 \\\\\nMin--max logistic & 0.1111 & 0.752 & 0.1328 & 0.02072 & 35.9 \\\\\nMin--max logistic constrained & 0.1012 & 0.705 & 0.1255 & 0.02050 & 29.7 \\\\\nOriginal additive & --- & 0.714 & 0.0682 & 0.02143 & 27.1 \\\\\nMultiplicative & 0.0304 & 0.637 & 0.0337 & 0.02175 & 14.5 \\\\",
+  "cirows": "7 & Original additive & +0.145 & [+0.130, +0.158] & +0.218 & [+0.188, +0.248] \\\\\n7 & Original standardized LR & +0.101 & [+0.092, +0.109] & +0.138 & [+0.121, +0.154] \\\\\n7 & Original RF & -0.001 & [-0.003, +0.001] & +0.009 & [+0.000, +0.016] \\\\\n7 & Persistence & +0.097 & [+0.088, +0.109] & +0.129 & [+0.106, +0.153] \\\\\n30 & Original additive & +0.145 & [+0.119, +0.168] & +0.218 & [+0.163, +0.260] \\\\\n30 & Original standardized LR & +0.101 & [+0.089, +0.113] & +0.138 & [+0.115, +0.157] \\\\\n30 & Original RF & -0.001 & [-0.004, +0.002] & +0.009 & [+0.002, +0.015] \\\\\n30 & Persistence & +0.097 & [+0.082, +0.117] & +0.129 & [+0.091, +0.157] \\\\",
+  "spec": "\\{\"depth\": 4, \"family\": \"xgb\", \"handling\": \"none\", \"kind\": \"loghistory\"\\}",
+  "calibration": "identity",
+  "n_candidates": 61,
+  "selection_n": "110,448",
+  "calibration_n": "74,296",
+  "selection_ap": "0.2375"
+}

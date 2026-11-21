@@ -1,0 +1,40 @@
+region:
+  name: California
+  california_mask: true
+  lat_min: 32.0
+  lat_max: 42.0
+  lon_min: -124.0
+  lon_max: -114.0
+time:
+  start: '2021-01-01'
+  end: '2024-12-31'
+  train_years:
+  - 2021
+  - 2022
+  val_years:
+  - 2023
+  test_years:
+  - 2024
+grid:
+  resolution: 0.25
+firms:
+  sliding_window_days: 7
+  decay_factor: 0.5
+  confidence_filter:
+  - n
+  - h
+  type_filter: 0
+  map_key: ''
+era5:
+  variables:
+  - 2m_temperature
+  - 2m_dewpoint_temperature
+  - 10m_u_component_of_wind
+  - 10m_v_component_of_wind
+  - volumetric_soil_water_layer_1
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  features: data/features
+  models: models
+  outputs: outputs

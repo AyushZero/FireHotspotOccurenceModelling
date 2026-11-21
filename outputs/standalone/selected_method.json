@@ -1,0 +1,49 @@
+{
+  "selected": {
+    "id": "ensemble",
+    "spec": {
+      "family": "ensemble",
+      "members": [
+        "model_024",
+        "model_167",
+        "model_174",
+        "model_156"
+      ],
+      "weights": [
+        0.02759407691067308,
+        0.5107044583390093,
+        0.2826583629262568,
+        0.1790431018240607
+      ]
+    },
+    "selection": {
+      "auc": 0.8616827812923584,
+      "ap": 0.26639534886255084,
+      "brier": 0.019979163022506647,
+      "precision_top10": 0.14216173256507053,
+      "recall_top10": 0.5967472894078398,
+      "mean": 0.023091379109755734
+    }
+  },
+  "ensemble": {
+    "family": "ensemble",
+    "members": [
+      "model_024",
+      "model_167",
+      "model_174",
+      "model_156"
+    ],
+    "weights": [
+      0.02759407691067308,
+      0.5107044583390093,
+      0.2826583629262568,
+      0.1790431018240607
+    ]
+  },
+  "final_probability_mapping": {
+    "kind": "sigmoid",
+    "coefficient": 1.0905761655424204,
+    "intercept": 0.23113984284750835,
+    "input": "clipped raw probability logit"
+  }
+}

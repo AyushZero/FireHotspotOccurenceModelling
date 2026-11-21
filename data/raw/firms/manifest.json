@@ -1,0 +1,62 @@
+{
+  "source": "NASA FIRMS area API, VIIRS_SNPP_SP",
+  "bbox": [
+    -124,
+    32,
+    -114,
+    42
+  ],
+  "years": {
+    "2021": {
+      "rows": 207183,
+      "chunks": 73,
+      "first_date": "2021-01-01",
+      "last_date": "2021-12-31",
+      "sha256": "a7d7a2f4486ef01a99796cdcf01fb069b9f77f3355986410ef3794ab01bdccb3",
+      "type_counts": {
+        "0": 199811,
+        "2": 7128,
+        "3": 244
+      },
+      "confidence_counts": {
+        "n": 182223,
+        "h": 15902,
+        "l": 9058
+      }
+    },
+    "2022": {
+      "rows": 34226,
+      "chunks": 73,
+      "first_date": "2022-01-01",
+      "last_date": "2022-12-31",
+      "sha256": "c9b4fa7473cec56272ca359c3860f2a714a9999eff80fd5753a82db97a096a8f",
+      "type_counts": {
+        "0": 27128,
+        "2": 7085,
+        "3": 13
+      },
+      "confidence_counts": {
+        "n": 30450,
+        "h": 2129,
+        "l": 1647
+      }
+    },
+    "2023": {
+      "rows": 38903,
+      "chunks": 73,
+      "first_date": "2023-01-01",
+      "last_date": "2023-12-31",
+      "sha256": "8ee13db5a225daca71a97cc9889b5fc7ecc90d95f8d8290ab308e876bbe925d6",
+      "type_counts": {
+        "0": 32225,
+        "2": 6631,
+        "3": 47
+      },
+      "confidence_counts": {
+        "n": 35193,
+        "l": 1865,
+        "h": 1845
+      }
+    }
+  }
+}

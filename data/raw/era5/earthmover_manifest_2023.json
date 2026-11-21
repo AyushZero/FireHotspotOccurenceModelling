@@ -1,0 +1,67 @@
+{
+  "source": "Earthmover public ERA5 Icechunk v2 archive, reanalysis-era5-single-levels",
+  "url": "s3://earthmover-icechunk-era5/icechunkV2, group single/temporal",
+  "year": 2023,
+  "variables": [
+    "t2m",
+    "d2m",
+    "u10",
+    "v10",
+    "swvl1"
+  ],
+  "source_chunks": [
+    8736,
+    12,
+    12
+  ],
+  "files": {
+    "era5_2023_01.nc": {
+      "bytes": 12247849,
+      "sha256": "c52c6af02614f598ad1a0f17886b3186295772e1332af237a7660f2ec99e50e7"
+    },
+    "era5_2023_02.nc": {
+      "bytes": 11164175,
+      "sha256": "acddf33164d9fda5db2abbedb8151347df4e8c56fb8d38f2ebbf6cf724a9260d"
+    },
+    "era5_2023_03.nc": {
+      "bytes": 12361651,
+      "sha256": "4724b029e2782f3dbbed6ec362728ed2ff0ab8e62898cf1805071ca2146fe40d"
+    },
+    "era5_2023_04.nc": {
+      "bytes": 12166065,
+      "sha256": "7c53a50c186828aa41b62e76f87e8f693aa212845d20bb6f26a7dffb77d01767"
+    },
+    "era5_2023_05.nc": {
+      "bytes": 12564343,
+      "sha256": "d0ab4db688d2a6880959d7c56f947a25a257e602c3475eb00888afc4ab061673"
+    },
+    "era5_2023_06.nc": {
+      "bytes": 12065265,
+      "sha256": "56b213e82e90f13b0c583797fd4bbde343ea1df524516a78359365be7629d475"
+    },
+    "era5_2023_07.nc": {
+      "bytes": 12396961,
+      "sha256": "a886623b664e80824e5cab41f68ec16457f5d299a8b36520945dc03b6eb86ef3"
+    },
+    "era5_2023_08.nc": {
+      "bytes": 12527567,
+      "sha256": "8e74fd4ebc0b3525fcede62dcd73fa436dc504a0eab19cbe267e2db4d4f93d12"
+    },
+    "era5_2023_09.nc": {
+      "bytes": 12102078,
+      "sha256": "47afdca57eec2d729f05739784aeb67de59f20f9bf304ef53c17a6b9bb7dfd0e"
+    },
+    "era5_2023_10.nc": {
+      "bytes": 12351768,
+      "sha256": "2f5ef5a3b48c35a6c3f4b419bc65fcea51a0cf715b6395fd86eab98847f62945"
+    },
+    "era5_2023_11.nc": {
+      "bytes": 11957335,
+      "sha256": "a4e9ed8819e4a88f98281db1984542c76eeffb361eac9b4ac454f4d9390c1cc6"
+    },
+    "era5_2023_12.nc": {
+      "bytes": 12581243,
+      "sha256": "772286a14f9cc5e5f09899f6c34c5bcee34ba8b057b3290bf5838d2e2c9c59c6"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "reported_models_checked": 17,
+  "candidate_count": 61,
+  "selected_refit_max_abs_probability_difference": 0.0,
+  "optimizer_verification_difference": 2.3192098486113366e-07,
+  "weighted_auc_ap_agree_with_sklearn": true,
+  "selection_matches_validation_maximum": true,
+  "figures_300_dpi": true,
+  "original_paper_unchanged": true,
+  "pdf_pages": 6,
+  "visual_review": "All pages inspected; no clipped or overlapping equations, tables or figures observed.",
+  "feature_sha256": "e16bfcff0b3e85da250c76b885a7dab88daa85c92626115ba10fbc7c617884f6"
+}

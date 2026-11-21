@@ -1,0 +1,67 @@
+{
+  "source": "Earthmover public ERA5 Icechunk v2 archive, reanalysis-era5-single-levels",
+  "url": "s3://earthmover-icechunk-era5/icechunkV2, group single/temporal",
+  "year": 2021,
+  "variables": [
+    "t2m",
+    "d2m",
+    "u10",
+    "v10",
+    "swvl1"
+  ],
+  "source_chunks": [
+    8736,
+    12,
+    12
+  ],
+  "files": {
+    "era5_2021_01.nc": {
+      "bytes": 12579215,
+      "sha256": "1202b6ad427544db86bff0ba672129318442304b64b522117b13217b887189f6"
+    },
+    "era5_2021_02.nc": {
+      "bytes": 11224020,
+      "sha256": "77654ae12f9b9d365120e6e902039afe5abf93798800e6be3f3b0cb99f2bc540"
+    },
+    "era5_2021_03.nc": {
+      "bytes": 12492540,
+      "sha256": "128e6728ac8735c74189a1a021a88bbf8dd29fadc07b00783a3e493c191e77ae"
+    },
+    "era5_2021_04.nc": {
+      "bytes": 12172314,
+      "sha256": "2b624e08ae09d41a06e7b69b1342d78b60d796829a29cdee01b0980b9630b6ce"
+    },
+    "era5_2021_05.nc": {
+      "bytes": 12476195,
+      "sha256": "f067641553bfee725ded86c253bc5d0d7ba0c4889e301973818f927c05943515"
+    },
+    "era5_2021_06.nc": {
+      "bytes": 12062555,
+      "sha256": "6e3b16abfefd21c3c10e35e5b673f4063968a08212f58d190913e06321c11aa2"
+    },
+    "era5_2021_07.nc": {
+      "bytes": 12514130,
+      "sha256": "89b9cc3094ae4752b71b8be827dbf7594eefe2c6c9d924224188c8525e0312e8"
+    },
+    "era5_2021_08.nc": {
+      "bytes": 12446065,
+      "sha256": "406433d18adc615e22e8ccf358633bc7d80fd336d3217322f01cf3105c30c111"
+    },
+    "era5_2021_09.nc": {
+      "bytes": 11994578,
+      "sha256": "bb9e6310260548f23c48f138ec5a07231256650302d0d36edb87b21826d34ec8"
+    },
+    "era5_2021_10.nc": {
+      "bytes": 12397259,
+      "sha256": "242f053d981390bce14eb8a8b3f75136041c549dd1771f524dec20cbfab1e513"
+    },
+    "era5_2021_11.nc": {
+      "bytes": 11915957,
+      "sha256": "436fa09104cbd523bd753e30becd821d2ff752eb40e98a40133ec022aef67a4c"
+    },
+    "era5_2021_12.nc": {
+      "bytes": 12343329,
+      "sha256": "30a57667ac7bf911aac971c99659ba5db59830612662af64efea8760eb9408ef"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "index_parameters": {
+    "weights": [
+      0.5647156111499472,
+      0.13148503086395735,
+      0.3037993579860956
+    ],
+    "wind": 1.2154579285032174,
+    "slope": 0.0040374390592805565,
+    "offset": 0.1,
+    "history": 10.0,
+    "mix": 0.10752493382431572,
+    "power": 2.0,
+    "history_log": true
+  },
+  "raw_probability": "sigmoid(intercept + coefficient * joint_index)",
+  "intercept": -4.258806956705339,
+  "coefficient": 1.8640801943183458,
+  "note": "The separately selected probability mapping, if any, is applied after this raw probability."
+}

@@ -1,0 +1,12 @@
+{
+  "training": "2021 only; train-only transformations",
+  "selection": "2022 days 1-14 monthly; pooled AP primary, AUC tie break; quarter diagnostics",
+  "calibration": "2022 days 22-end, fit22-25/assess26-end; same as v2",
+  "benchmark": "2023 previously examined; all stages are development, not independent confirmation",
+  "new_search": "27 splines varying knots, ridge, second-difference penalty; 36 tree refinements; 96 joint multiplicative candidates; 128 simplex blends plus pure vertices",
+  "ensemble_components": "best 2022 candidate per family among v2 and v3, including spline, RF, XGB, LGBM; convex probability blend",
+  "seed": 20261120,
+  "bootstrap": "full-population paired 7/30-day moving blocks, 300 draws, AUC/AP",
+  "data_sha256": "e16bfcff0b3e85da250c76b885a7dab88daa85c92626115ba10fbc7c617884f6",
+  "no_global_optimality_claim": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "candidate_032",
+  "spec": {
+    "family": "logistic",
+    "kind": "spline",
+    "C": 1,
+    "positive": false
+  },
+  "selection": {
+    "auc": 0.822266047814567,
+    "ap": 0.21525126449282297,
+    "brier": 0.016858228827143218,
+    "precision_top10": 0.10710728836577636,
+    "recall_top10": 0.5569679849340866,
+    "mean": 0.021255190800268327
+  },
+  "seconds": 13.842380285263062
+}

@@ -1,0 +1,570 @@
+{
+  "source_script": "review_followup.py",
+  "data": "data/features/features.nc",
+  "models": {
+    "constrained_additive": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.6901330531187426,
+          "auc_pr": 0.10379190544651931,
+          "brier": 0.01919358941536337,
+          "mean_probability": 0.023644869887759885,
+          "min_probability": 0.0001324374853313145,
+          "max_probability": 1.0
+        },
+        "test": {
+          "auc_roc": 0.7106069127980389,
+          "auc_pr": 0.1455698534562278,
+          "brier": 0.020704788125781217,
+          "mean_probability": 0.021623110147621114,
+          "min_probability": 6.966887650117269e-05,
+          "max_probability": 1.0
+        }
+      },
+      "coefficients_minmax": {
+        "T": 0.0,
+        "NDVI": 5.6917071453347035,
+        "1-NDWI": 4.098173989542618,
+        "1-RH": 1.4703672744651608,
+        "1-SM": 0.0,
+        "U": 0.0,
+        "slope": 0.0,
+        "FRP_hist": 79.2779790616726,
+        "Count_hist": 160.12566966464934
+      },
+      "coefficients_standardized": {
+        "T": 0.0,
+        "NDVI": 1.0774163462882946,
+        "1-NDWI": 0.6780395370125831,
+        "1-RH": 0.3272598055111399,
+        "1-SM": 0.0,
+        "U": 0.0,
+        "slope": 0.0,
+        "FRP_hist": 0.8200670869514131,
+        "Count_hist": 2.362872299477747
+      },
+      "intercept": -9.715365946174567
+    },
+    "unconstrained_additive": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.7114987270580188,
+          "auc_pr": 0.05450148953279103,
+          "brier": 0.019683947304407173,
+          "mean_probability": 0.02541857340066501,
+          "min_probability": 6.598129698831243e-05,
+          "max_probability": 0.9999977730739272
+        },
+        "test": {
+          "auc_roc": 0.7144444981349724,
+          "auc_pr": 0.06823589694642927,
+          "brier": 0.021426039215991077,
+          "mean_probability": 0.024357643114119497,
+          "min_probability": 2.7575801580561756e-05,
+          "max_probability": 0.9997991088670705
+        }
+      },
+      "coefficients_minmax": {
+        "T": 1.1233163968613433,
+        "NDVI": 5.959553358361586,
+        "1-NDWI": 3.7749544129267116,
+        "1-RH": 1.632443685592262,
+        "1-SM": -1.5154877606719466,
+        "U": -0.4560722527189729,
+        "slope": -1.879680002296592,
+        "FRP_hist": 13.95927204249366,
+        "Count_hist": 28.197287166543045
+      },
+      "coefficients_standardized": {
+        "T": 0.18789238847574954,
+        "NDVI": 1.1281185136412164,
+        "1-NDWI": 0.6245631222382775,
+        "1-RH": 0.36333317010822136,
+        "1-SM": -0.41309909076889967,
+        "U": -0.039783081403199146,
+        "slope": -0.4228353265200587,
+        "FRP_hist": 0.14439746945295756,
+        "Count_hist": 0.41608936846777766
+      },
+      "intercept": -8.647259099279543
+    },
+    "raw_logistic": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.7564833478548435,
+          "auc_pr": 0.11929894076271771,
+          "brier": 0.018952806600503202,
+          "mean_probability": 0.023376683926735153,
+          "min_probability": 5.887649375457183e-05,
+          "max_probability": 1.0
+        },
+        "test": {
+          "auc_roc": 0.7581792197876934,
+          "auc_pr": 0.14772051340052572,
+          "brier": 0.020515393835227817,
+          "mean_probability": 0.02307195028908072,
+          "min_probability": 2.3320434132930834e-05,
+          "max_probability": 1.0
+        }
+      },
+      "features": "nine raw drivers, training-year standardization"
+    },
+    "climatology": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.7741313796585196,
+          "auc_pr": 0.07926792991038786,
+          "brier": 0.019999005436513236,
+          "mean_probability": 0.027858845675759417,
+          "min_probability": 0.008998980813373489,
+          "max_probability": 0.5869819230506599
+        },
+        "test": {
+          "auc_roc": 0.7669376099794548,
+          "auc_pr": 0.07737815055609992,
+          "brier": 0.02192684066024972,
+          "mean_probability": 0.027855929484021196,
+          "min_probability": 0.008998980813373489,
+          "max_probability": 0.5869819230506599
+        }
+      },
+      "features": "sin/cos day of year and training-only per-cell hotspot rate"
+    },
+    "persistence": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.7575868972047923,
+          "auc_pr": 0.13561347229769688,
+          "brier": 0.018198534620992225,
+          "mean_probability": 0.02414220481977417,
+          "min_probability": 0.011255663476349856,
+          "max_probability": 0.4091577934064994
+        },
+        "test": {
+          "auc_roc": 0.7623484663027752,
+          "auc_pr": 0.15663361503124545,
+          "brier": 0.019415401474892523,
+          "mean_probability": 0.025166629725451046,
+          "min_probability": 0.011255663476349856,
+          "max_probability": 0.4091577934064994
+        }
+      },
+      "features": "same-cell prior-day and any prior-seven-day hotspot"
+    },
+    "multiplicative": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.6003252635226987,
+          "auc_pr": 0.029455620838105406,
+          "brier": 0.020256598148856098,
+          "mean_probability": 0.0281939425923041,
+          "min_probability": 0.0065697464250915995,
+          "max_probability": 0.7110263440078498
+        },
+        "test": {
+          "auc_roc": 0.6399229618307094,
+          "auc_pr": 0.035712369245694806,
+          "brier": 0.021884618926147743,
+          "mean_probability": 0.02543869018843469,
+          "min_probability": 0.0065697464250915995,
+          "max_probability": 0.32502777276489864
+        }
+      },
+      "weights": [
+        0.3,
+        0.4,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "selection": "highest validation AUC of six configurations"
+    },
+    "simplified_weather_index": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.5135832100835414,
+          "auc_pr": 0.019784723446751914,
+          "brier": 0.020003477144989745,
+          "mean_probability": 0.027922093304588953,
+          "min_probability": 0.0189179623013323,
+          "max_probability": 0.04931624495271276
+        },
+        "test": {
+          "auc_roc": 0.5560022562424063,
+          "auc_pr": 0.02364071984765724,
+          "brier": 0.021852335014549702,
+          "mean_probability": 0.026830719878181683,
+          "min_probability": 0.0189179623013323,
+          "max_probability": 0.04998718657910948
+        }
+      }
+    },
+    "random_forest": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.8586502404504074,
+          "auc_pr": 0.23860083499814966,
+          "brier": 0.017514898946369845,
+          "mean_probability": 0.020377483245169026,
+          "min_probability": 0.005912867183720019,
+          "max_probability": 0.5970016061842711
+        },
+        "test": {
+          "auc_roc": 0.8601086113002736,
+          "auc_pr": 0.27709314584014305,
+          "brier": 0.018759006415159884,
+          "mean_probability": 0.02160072585292998,
+          "min_probability": 0.005914115195138137,
+          "max_probability": 0.5987494831840842
+        }
+      },
+      "calibration": "Platt logistic fit on 2022 scores/labels; validation Brier in-sample",
+      "n_estimators": 200
+    },
+    "xgboost": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.848591676751533,
+          "auc_pr": 0.22308379329366881,
+          "brier": 0.017837671747699967,
+          "mean_probability": 0.02034869512492265,
+          "min_probability": 0.003634292761892808,
+          "max_probability": 0.3735511555088269
+        },
+        "test": {
+          "auc_roc": 0.848279833398875,
+          "auc_pr": 0.25256687138659334,
+          "brier": 0.019281639598657054,
+          "mean_probability": 0.02140767032459529,
+          "min_probability": 0.0036333989615301033,
+          "max_probability": 0.37338928706880475
+        }
+      },
+      "calibration": "Platt logistic fit on 2022 scores/labels; validation Brier in-sample",
+      "n_estimators": 200
+    },
+    "lightgbm": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.8498017556732385,
+          "auc_pr": 0.2299171748165765,
+          "brier": 0.017748529939023202,
+          "mean_probability": 0.02034270562759122,
+          "min_probability": 0.003592013320289001,
+          "max_probability": 0.39447834325624426
+        },
+        "test": {
+          "auc_roc": 0.849767769916382,
+          "auc_pr": 0.25768516523100465,
+          "brier": 0.019189852128159997,
+          "mean_probability": 0.021608253212228392,
+          "min_probability": 0.003591078495952407,
+          "max_probability": 0.39436671014833613
+        }
+      },
+      "calibration": "Platt logistic fit on 2022 scores/labels; validation Brier in-sample",
+      "n_estimators": 200
+    },
+    "weather_only": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.5265391510721685,
+          "auc_pr": 0.02093851226468796,
+          "brier": 0.020013147087335963
+        },
+        "test": {
+          "auc_roc": 0.5687281984920901,
+          "auc_pr": 0.02529310307217328,
+          "brier": 0.021837141223383004
+        }
+      }
+    },
+    "weather_plus_sm": {
+      "metrics": {
+        "validation": {
+          "auc_roc": 0.5583691245847947,
+          "auc_pr": 0.02205520223004509,
+          "brier": 0.0201510294630468
+        },
+        "test": {
+          "auc_roc": 0.591321812088071,
+          "auc_pr": 0.027466425776333167,
+          "brier": 0.021944499101206362
+        }
+      }
+    }
+  },
+  "ablation": {
+    "constrained_additive": {
+      "full": {
+        "auc_roc": 0.7106069127980389,
+        "delta": 0.0
+      },
+      "T": {
+        "auc_roc": 0.6631420260852647,
+        "delta": 0.04746488671277416
+      },
+      "NDVI": {
+        "auc_roc": 0.697340682713276,
+        "delta": 0.013266230084762909
+      },
+      "1-NDWI": {
+        "auc_roc": 0.72289698389405,
+        "delta": -0.012290071096011101
+      },
+      "1-RH": {
+        "auc_roc": 0.7043410827050587,
+        "delta": 0.006265830092980207
+      },
+      "1-SM": {
+        "auc_roc": 0.7104872825636972,
+        "delta": 0.0001196302343416944
+      },
+      "U": {
+        "auc_roc": 0.7105431527786072,
+        "delta": 6.376001943164677e-05
+      },
+      "slope": {
+        "auc_roc": 0.710595072526098,
+        "delta": 1.1840271940899427e-05
+      },
+      "FRP_hist": {
+        "auc_roc": 0.7130514054314547,
+        "delta": -0.00244449263341584
+      },
+      "Count_hist": {
+        "auc_roc": 0.6942187385814876,
+        "delta": 0.016388174216551255
+      }
+    },
+    "unconstrained_additive": {
+      "full": {
+        "auc_roc": 0.7144444981349724,
+        "delta": 0.0
+      },
+      "T": {
+        "auc_roc": 0.7186197279903234,
+        "delta": -0.004175229855351015
+      },
+      "NDVI": {
+        "auc_roc": 0.6776924872206473,
+        "delta": 0.036752010914325006
+      },
+      "1-NDWI": {
+        "auc_roc": 0.7264224298333704,
+        "delta": -0.011977931698398003
+      },
+      "1-RH": {
+        "auc_roc": 0.7152429640020752,
+        "delta": -0.0007984658671028599
+      },
+      "1-SM": {
+        "auc_roc": 0.7231780625527616,
+        "delta": -0.008733564417789275
+      },
+      "U": {
+        "auc_roc": 0.7145306976679695,
+        "delta": -8.619953299715544e-05
+      },
+      "slope": {
+        "auc_roc": 0.6769002591010533,
+        "delta": 0.037544239033919014
+      },
+      "FRP_hist": {
+        "auc_roc": 0.718088459686915,
+        "delta": -0.003643961551942687
+      },
+      "Count_hist": {
+        "auc_roc": 0.7010594670244649,
+        "delta": 0.013385031110507484
+      }
+    }
+  },
+  "selection": {
+    "criterion": "higher 2022 validation AUC-ROC",
+    "primary": "unconstrained_additive"
+  },
+  "affine_equivalence_max_abs_probability_difference": 2.098093521141209e-08,
+  "history_check": {
+    "train": {
+      "base_rate": 0.027953314823422993,
+      "p_event_given_yesterday": 0.4093497153131555,
+      "n_yesterday_positive": 6674,
+      "frp_count_feature_correlation": 0.8851175813420017,
+      "frp_count_identical": false
+    },
+    "test": {
+      "base_rate": 0.022330635048265,
+      "p_event_given_yesterday": 0.3344525275135236,
+      "n_yesterday_positive": 5361,
+      "frp_count_feature_correlation": 0.8344227865457385,
+      "frp_count_identical": false
+    }
+  },
+  "paired_bootstrap": {
+    "settings": {
+      "days": 365,
+      "resamples": 500,
+      "non_event_fraction": 0.05,
+      "all_events": true,
+      "seed_non_event": 20261120,
+      "seed_blocks": 42
+    },
+    "difference_primary_minus_comparator": {
+      "raw_logistic": {
+        "point": -0.043734721652721076,
+        "ci95": [
+          -0.048858542832802276,
+          -0.03995030335478448
+        ]
+      },
+      "climatology": {
+        "point": -0.052493111844482465,
+        "ci95": [
+          -0.06296456672439499,
+          -0.040653368039818644
+        ]
+      },
+      "persistence": {
+        "point": -0.047903968167802846,
+        "ci95": [
+          -0.06310016463478102,
+          -0.036973566336995896
+        ]
+      },
+      "random_forest": {
+        "point": -0.14566411316530126,
+        "ci95": [
+          -0.15734268915201302,
+          -0.13739339508391574
+        ]
+      },
+      "xgboost": {
+        "point": -0.13383533526390268,
+        "ci95": [
+          -0.14584402718846887,
+          -0.12659063047395386
+        ]
+      },
+      "lightgbm": {
+        "point": -0.13532327178140968,
+        "ci95": [
+          -0.1476695327769625,
+          -0.12781763625779152
+        ]
+      }
+    }
+  },
+  "test_base_rate": 0.022330635048265,
+  "train_base_rate": 0.027953314823422993,
+  "weather_plus_sm_test_gain": 0.022593613595980888,
+  "grid_audit": {
+    "bounding_box_cells": 1600,
+    "cells_with_model_rows": 660,
+    "model_cells_inside_california": 660,
+    "model_cells_outside_california": 0,
+    "california_center_source": "US Census 2024 1:500,000 cartographic state boundary, outputs/cb_2024_us_state_500k.zip"
+  },
+  "provenance": {
+    "status": "observed-source retrospective California hotspot study; source details and hashes in outputs/real_input_audit.json",
+    "ERA5": "36 hourly monthly ERA5 single-level files, primarily from the public Earthmover Icechunk archive, with one sampled grid-point hour checked against CDS in January 2021 and December 2023; 42N--32N and 124W--114W",
+    "FIRMS": "NASA FIRMS VIIRS_SNPP_SP area API historical detections, 2021--2023; nominal/high confidence vegetation detections retained",
+    "MODIS": "NASA LP DAAC AppEEARS MOD13A2.061, 1 km 16-day composites, NDVI/NIR/MIR",
+    "SRTM": "SRTMGL1 elevation GeoTIFFs; 0.25-degree cell slopes generated by build_srtm_slope.py",
+    "lookahead": "MODIS 16-day composite becomes available 16 days after start date; reindex uses forward fill only; hotspot history uses days t-1 through t-7"
+  },
+  "methods_audit": {
+    "ERA5_variables": "t2m, d2m, u10, v10, swvl1; five hourly ERA5 fields",
+    "soil_layer": "swvl1 means top 0-7 cm layer; not root zone",
+    "MODIS_product": "MOD13A2.061, 1 km 16-day composite",
+    "NDWI_formula": "(NIR reflectance - MIR band-7 reflectance)/(NIR + MIR band-7 reflectance + 1e-6)",
+    "VIIRS_product": "VIIRS_SNPP_SP NRT/historical archive via NASA FIRMS area API; type 0 and confidence n/h",
+    "ERA5_aggregation": "daily Tmax, RH computed from T and dew point at Tmax hour, max 10-m wind, mean swvl1; nearest-neighbour regrid",
+    "MODIS_aggregation": "nearest-neighbour spatial sample; 16-day composite held forward after full window elapsed",
+    "SRTM_aggregation": "native-pixel slope in degrees from metre-scaled DEM gradients; cell mean, 0.25 degree",
+    "FIRMS_aggregation": "daily cell hotspot presence; FRP and hotspot counts accumulated separately with weights 0.5^k for k=1..7",
+    "tree_hyperparameters": "RF 200 trees depth 10; XGBoost 200 trees depth 6 learning rate 0.1; LightGBM 200 trees depth 6, 31 leaves, learning rate 0.1",
+    "tree_calibration": "SMOTE to 0.10 then random undersampling to 0.30 on 2021; Platt logistic on 2022 scores/labels",
+    "parameter_counts": "the previous ~10k and ~200 trees descriptions are not defensible parameter counts; report n_estimators/max_depth/num_leaves instead"
+  },
+  "ranking_calibration": {
+    "primary_model": "unconstrained_additive",
+    "top_10_percent_threshold": 0.0535806951963022,
+    "selected_fraction": 0.10000041661632553,
+    "top_10_percent_hit_rate": 0.2708955223880597,
+    "hit_rate_lift": 2.708943937977902,
+    "mean_prediction": 0.024357643114119497,
+    "observed_rate": 0.022330635048265,
+    "mean_to_observed_ratio": 1.0907725222087665,
+    "min_prediction": 2.7575801580561756e-05,
+    "max_prediction": 0.9997991088670705,
+    "brier_primary": 0.021426039215991077,
+    "brier_constant_train_rate": 0.021863592314460178,
+    "brier_constant_test_rate": 0.021831977786606196,
+    "brier_skill_vs_train_rate": 0.020012863950985338,
+    "reliability_bins": [
+      {
+        "n": 24003,
+        "mean_predicted": 0.0014630752576054356,
+        "observed_rate": 0.005374328208973878
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.00664034399054345,
+        "observed_rate": 0.006249218847644044
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.00961666890354896,
+        "observed_rate": 0.007290755322251386
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.012177422785006326,
+        "observed_rate": 0.010373703287089114
+      },
+      {
+        "n": 24002,
+        "mean_predicted": 0.015271077097253413,
+        "observed_rate": 0.0133322223148071
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.019728071057599963,
+        "observed_rate": 0.018581010706994958
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.025831075153724625,
+        "observed_rate": 0.027329917093696622
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.03370780051599381,
+        "observed_rate": 0.03445402658001083
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.045315178581094476,
+        "observed_rate": 0.03982835478898471
+      },
+      {
+        "n": 24003,
+        "mean_predicted": 0.07382533923922711,
+        "observed_rate": 0.06049243844519435
+      }
+    ],
+    "slope_quartile_hit_rates": [
+      0.40473172792564427,
+      0.20815752461322082,
+      0.15099009900990099,
+      0.15233644859813084
+    ],
+    "ndvi_quartile_hit_rates": [
+      0.010526315789473684,
+      0.042283298097251586,
+      0.2411467116357504,
+      0.48732251521298176
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "candidate_050",
+  "spec": {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 8
+  },
+  "selection": {
+    "auc": 0.8531985171986307,
+    "ap": 0.23198275433231272,
+    "brier": 0.016568447158928794,
+    "precision_top10": 0.11543684925305568,
+    "recall_top10": 0.6002824858757062,
+    "mean": 0.02028326317667961
+  },
+  "seconds": 5.183389186859131
+}

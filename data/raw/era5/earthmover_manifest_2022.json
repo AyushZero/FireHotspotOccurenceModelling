@@ -1,0 +1,67 @@
+{
+  "source": "Earthmover public ERA5 Icechunk v2 archive, reanalysis-era5-single-levels",
+  "url": "s3://earthmover-icechunk-era5/icechunkV2, group single/temporal",
+  "year": 2022,
+  "variables": [
+    "t2m",
+    "d2m",
+    "u10",
+    "v10",
+    "swvl1"
+  ],
+  "source_chunks": [
+    8736,
+    12,
+    12
+  ],
+  "files": {
+    "era5_2022_01.nc": {
+      "bytes": 12350313,
+      "sha256": "22d94caa9fb24b578c082081ee6564d5d935965199cdaf5926bd9dbc57bcc691"
+    },
+    "era5_2022_02.nc": {
+      "bytes": 11235650,
+      "sha256": "e28d9ee85d82a20c2c47b5f44d9026b94a5ab4426cef6106b4cb686989040a1f"
+    },
+    "era5_2022_03.nc": {
+      "bytes": 12510496,
+      "sha256": "deafc3c5ecf96dfab8c4e5ec7f1daeceb2a2c2ed2345240a8f11d6254ef2e680"
+    },
+    "era5_2022_04.nc": {
+      "bytes": 12160471,
+      "sha256": "418041a99fc1a4eabf1a5fad6e4c9855a83922d004711e8902b270247bba5288"
+    },
+    "era5_2022_05.nc": {
+      "bytes": 12437886,
+      "sha256": "ab5d5b412b412b01e2a39f2713a9b73eb6d952d65deefb6a3ebc5dad57a8f704"
+    },
+    "era5_2022_06.nc": {
+      "bytes": 12037915,
+      "sha256": "af30b9aa8e700066f6c91d92e770bbe57654de5d041d777d3dd9fbc1a7e7d9df"
+    },
+    "era5_2022_07.nc": {
+      "bytes": 12426697,
+      "sha256": "fe64f4375f8b3f78957cb8d890e4838d2347f4426b68d49c7c062996959eb378"
+    },
+    "era5_2022_08.nc": {
+      "bytes": 12503216,
+      "sha256": "031261127adc14bf62d651778c26d8212476b19ef6e97bfda19023d53d822b41"
+    },
+    "era5_2022_09.nc": {
+      "bytes": 12083876,
+      "sha256": "14c52b3f7b0b01f17e84bcdb6ad8ed9b18b44f38d116d94a9967a608332b4132"
+    },
+    "era5_2022_10.nc": {
+      "bytes": 12316196,
+      "sha256": "82448de7fd69ca72fe40ed77822cfe6dfe0d665fa48c6a7b775fd593b3d50cb8"
+    },
+    "era5_2022_11.nc": {
+      "bytes": 11990334,
+      "sha256": "e45856a50dc9477f0591aa42ddb6b5262ccf3987ef8c7af9bc92405ee9259fe7"
+    },
+    "era5_2022_12.nc": {
+      "bytes": 12309332,
+      "sha256": "52d432ec6ce6868ffb139bae930317b0d4901c1394a444736c3c9067467ee86e"
+    }
+  }
+}

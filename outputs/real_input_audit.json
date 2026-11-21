@@ -1,0 +1,224 @@
+{
+  "weather_source": "ERA5 hourly single levels: public Earthmover Icechunk mirror; one sampled grid-point hour checked against CDS in January 2021 and December 2023",
+  "firms_source": "NASA FIRMS VIIRS_SNPP_SP area API",
+  "modis_source": "NASA LP DAAC AppEEARS MOD13A2.061",
+  "srtm_source": "USGS SRTMGL1 tiles",
+  "era5": {
+    "era5_2021_01.nc": {
+      "hours": 744,
+      "bytes": 12579215,
+      "sha256": "1202b6ad427544db86bff0ba672129318442304b64b522117b13217b887189f6"
+    },
+    "era5_2021_02.nc": {
+      "hours": 672,
+      "bytes": 11224020,
+      "sha256": "77654ae12f9b9d365120e6e902039afe5abf93798800e6be3f3b0cb99f2bc540"
+    },
+    "era5_2021_03.nc": {
+      "hours": 744,
+      "bytes": 12492540,
+      "sha256": "128e6728ac8735c74189a1a021a88bbf8dd29fadc07b00783a3e493c191e77ae"
+    },
+    "era5_2021_04.nc": {
+      "hours": 720,
+      "bytes": 12172314,
+      "sha256": "2b624e08ae09d41a06e7b69b1342d78b60d796829a29cdee01b0980b9630b6ce"
+    },
+    "era5_2021_05.nc": {
+      "hours": 744,
+      "bytes": 12476195,
+      "sha256": "f067641553bfee725ded86c253bc5d0d7ba0c4889e301973818f927c05943515"
+    },
+    "era5_2021_06.nc": {
+      "hours": 720,
+      "bytes": 12062555,
+      "sha256": "6e3b16abfefd21c3c10e35e5b673f4063968a08212f58d190913e06321c11aa2"
+    },
+    "era5_2021_07.nc": {
+      "hours": 744,
+      "bytes": 12514130,
+      "sha256": "89b9cc3094ae4752b71b8be827dbf7594eefe2c6c9d924224188c8525e0312e8"
+    },
+    "era5_2021_08.nc": {
+      "hours": 744,
+      "bytes": 12446065,
+      "sha256": "406433d18adc615e22e8ccf358633bc7d80fd336d3217322f01cf3105c30c111"
+    },
+    "era5_2021_09.nc": {
+      "hours": 720,
+      "bytes": 11994578,
+      "sha256": "bb9e6310260548f23c48f138ec5a07231256650302d0d36edb87b21826d34ec8"
+    },
+    "era5_2021_10.nc": {
+      "hours": 744,
+      "bytes": 12397259,
+      "sha256": "242f053d981390bce14eb8a8b3f75136041c549dd1771f524dec20cbfab1e513"
+    },
+    "era5_2021_11.nc": {
+      "hours": 720,
+      "bytes": 11915957,
+      "sha256": "436fa09104cbd523bd753e30becd821d2ff752eb40e98a40133ec022aef67a4c"
+    },
+    "era5_2021_12.nc": {
+      "hours": 744,
+      "bytes": 12343329,
+      "sha256": "30a57667ac7bf911aac971c99659ba5db59830612662af64efea8760eb9408ef"
+    },
+    "era5_2022_01.nc": {
+      "hours": 744,
+      "bytes": 12350313,
+      "sha256": "22d94caa9fb24b578c082081ee6564d5d935965199cdaf5926bd9dbc57bcc691"
+    },
+    "era5_2022_02.nc": {
+      "hours": 672,
+      "bytes": 11235650,
+      "sha256": "e28d9ee85d82a20c2c47b5f44d9026b94a5ab4426cef6106b4cb686989040a1f"
+    },
+    "era5_2022_03.nc": {
+      "hours": 744,
+      "bytes": 12510496,
+      "sha256": "deafc3c5ecf96dfab8c4e5ec7f1daeceb2a2c2ed2345240a8f11d6254ef2e680"
+    },
+    "era5_2022_04.nc": {
+      "hours": 720,
+      "bytes": 12160471,
+      "sha256": "418041a99fc1a4eabf1a5fad6e4c9855a83922d004711e8902b270247bba5288"
+    },
+    "era5_2022_05.nc": {
+      "hours": 744,
+      "bytes": 12437886,
+      "sha256": "ab5d5b412b412b01e2a39f2713a9b73eb6d952d65deefb6a3ebc5dad57a8f704"
+    },
+    "era5_2022_06.nc": {
+      "hours": 720,
+      "bytes": 12037915,
+      "sha256": "af30b9aa8e700066f6c91d92e770bbe57654de5d041d777d3dd9fbc1a7e7d9df"
+    },
+    "era5_2022_07.nc": {
+      "hours": 744,
+      "bytes": 12426697,
+      "sha256": "fe64f4375f8b3f78957cb8d890e4838d2347f4426b68d49c7c062996959eb378"
+    },
+    "era5_2022_08.nc": {
+      "hours": 744,
+      "bytes": 12503216,
+      "sha256": "031261127adc14bf62d651778c26d8212476b19ef6e97bfda19023d53d822b41"
+    },
+    "era5_2022_09.nc": {
+      "hours": 720,
+      "bytes": 12083876,
+      "sha256": "14c52b3f7b0b01f17e84bcdb6ad8ed9b18b44f38d116d94a9967a608332b4132"
+    },
+    "era5_2022_10.nc": {
+      "hours": 744,
+      "bytes": 12316196,
+      "sha256": "82448de7fd69ca72fe40ed77822cfe6dfe0d665fa48c6a7b775fd593b3d50cb8"
+    },
+    "era5_2022_11.nc": {
+      "hours": 720,
+      "bytes": 11990334,
+      "sha256": "e45856a50dc9477f0591aa42ddb6b5262ccf3987ef8c7af9bc92405ee9259fe7"
+    },
+    "era5_2022_12.nc": {
+      "hours": 744,
+      "bytes": 12309332,
+      "sha256": "52d432ec6ce6868ffb139bae930317b0d4901c1394a444736c3c9067467ee86e"
+    },
+    "era5_2023_01.nc": {
+      "hours": 744,
+      "bytes": 12247849,
+      "sha256": "c52c6af02614f598ad1a0f17886b3186295772e1332af237a7660f2ec99e50e7"
+    },
+    "era5_2023_02.nc": {
+      "hours": 672,
+      "bytes": 11164175,
+      "sha256": "acddf33164d9fda5db2abbedb8151347df4e8c56fb8d38f2ebbf6cf724a9260d"
+    },
+    "era5_2023_03.nc": {
+      "hours": 744,
+      "bytes": 12361651,
+      "sha256": "4724b029e2782f3dbbed6ec362728ed2ff0ab8e62898cf1805071ca2146fe40d"
+    },
+    "era5_2023_04.nc": {
+      "hours": 720,
+      "bytes": 12166065,
+      "sha256": "7c53a50c186828aa41b62e76f87e8f693aa212845d20bb6f26a7dffb77d01767"
+    },
+    "era5_2023_05.nc": {
+      "hours": 744,
+      "bytes": 12564343,
+      "sha256": "d0ab4db688d2a6880959d7c56f947a25a257e602c3475eb00888afc4ab061673"
+    },
+    "era5_2023_06.nc": {
+      "hours": 720,
+      "bytes": 12065265,
+      "sha256": "56b213e82e90f13b0c583797fd4bbde343ea1df524516a78359365be7629d475"
+    },
+    "era5_2023_07.nc": {
+      "hours": 744,
+      "bytes": 12396961,
+      "sha256": "a886623b664e80824e5cab41f68ec16457f5d299a8b36520945dc03b6eb86ef3"
+    },
+    "era5_2023_08.nc": {
+      "hours": 744,
+      "bytes": 12527567,
+      "sha256": "8e74fd4ebc0b3525fcede62dcd73fa436dc504a0eab19cbe267e2db4d4f93d12"
+    },
+    "era5_2023_09.nc": {
+      "hours": 720,
+      "bytes": 12102078,
+      "sha256": "47afdca57eec2d729f05739784aeb67de59f20f9bf304ef53c17a6b9bb7dfd0e"
+    },
+    "era5_2023_10.nc": {
+      "hours": 744,
+      "bytes": 12351768,
+      "sha256": "2f5ef5a3b48c35a6c3f4b419bc65fcea51a0cf715b6395fd86eab98847f62945"
+    },
+    "era5_2023_11.nc": {
+      "hours": 720,
+      "bytes": 11957335,
+      "sha256": "a4e9ed8819e4a88f98281db1984542c76eeffb361eac9b4ac454f4d9390c1cc6"
+    },
+    "era5_2023_12.nc": {
+      "hours": 744,
+      "bytes": 12581243,
+      "sha256": "772286a14f9cc5e5f09899f6c34c5bcee34ba8b057b3290bf5838d2e2c9c59c6"
+    }
+  },
+  "firms": {
+    "2021": {
+      "rows": 207183,
+      "presumed_vegetation_nominal_high": 190797,
+      "sha256": "a7d7a2f4486ef01a99796cdcf01fb069b9f77f3355986410ef3794ab01bdccb3"
+    },
+    "2022": {
+      "rows": 34226,
+      "presumed_vegetation_nominal_high": 25518,
+      "sha256": "c9b4fa7473cec56272ca359c3860f2a714a9999eff80fd5753a82db97a096a8f"
+    },
+    "2023": {
+      "rows": 38903,
+      "presumed_vegetation_nominal_high": 30426,
+      "sha256": "8ee13db5a225daca71a97cc9889b5fc7ecc90d95f8d8290ab308e876bbe925d6"
+    }
+  },
+  "modis": {
+    "composites": 70,
+    "first_start": "2020-12-18",
+    "last_start": "2023-12-19"
+  },
+  "srtm": [
+    {
+      "file": "output_SRTMGL1 (2).tif",
+      "bytes": 367057907
+    },
+    {
+      "file": "output_SRTMGL1 (3).tif",
+      "bytes": 188307875
+    },
+    {
+      "file": "output_SRTMGL1.tif",
+      "bytes": 467448931
+    }
+  ]
+}

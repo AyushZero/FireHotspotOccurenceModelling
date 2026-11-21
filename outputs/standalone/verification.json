@@ -1,0 +1,12 @@
+{
+  "metric_rows_verified": 11,
+  "candidate_fits": 276,
+  "ensemble_candidates": 132,
+  "selected_inference_max_abs_difference": 3.3306690738754696e-16,
+  "smooth_gradient_max_abs_difference": 6.022682352835318e-11,
+  "weighted_auc_ap_match_sklearn": true,
+  "selected_by_validation_only": true,
+  "year_partition_verified": true,
+  "features_sha256": "11bca3faaf8d5a567f4404592fdea88128799b1659541509ff7b9cb95e330f7a",
+  "exported_smooth_formula_max_abs_difference": 9.992007221626409e-16
+}

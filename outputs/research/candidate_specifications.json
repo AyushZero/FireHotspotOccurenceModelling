@@ -1,0 +1,373 @@
+[
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 0.01,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 0.01,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 0.1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 0.1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 10,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 10,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 100,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "minmax",
+    "C": 100,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 0.01,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 0.01,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 0.1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 0.1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 10,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 10,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 100,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "standard",
+    "C": 100,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 0.01,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 0.01,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 0.1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 0.1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 1,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 10,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 10,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 100,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "loghistory",
+    "C": 100,
+    "positive": true
+  },
+  {
+    "family": "logistic",
+    "kind": "spline",
+    "C": 0.01,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "spline",
+    "C": 0.1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "spline",
+    "C": 1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "spline",
+    "C": 10,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "interactions",
+    "C": 0.01,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "interactions",
+    "C": 0.1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "interactions",
+    "C": 1,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "interactions",
+    "C": 10,
+    "positive": false
+  },
+  {
+    "family": "logistic",
+    "kind": "multiplicative",
+    "C": 100,
+    "positive": false,
+    "epsilon": 0
+  },
+  {
+    "family": "logistic",
+    "kind": "multiplicative",
+    "C": 100,
+    "positive": false,
+    "epsilon": 0.05
+  },
+  {
+    "family": "logistic",
+    "kind": "multiplicative",
+    "C": 100,
+    "positive": false,
+    "epsilon": 0.2
+  },
+  {
+    "family": "logistic",
+    "kind": "multiplicative",
+    "C": 100,
+    "positive": false,
+    "epsilon": 0.5
+  },
+  {
+    "family": "logistic",
+    "kind": "multiplicative",
+    "C": 100,
+    "positive": false,
+    "epsilon": 1
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 4
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 8
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 4
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 8
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 4
+  },
+  {
+    "family": "rf",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 8
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 4
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 8
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 4
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 8
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 4
+  },
+  {
+    "family": "xgb",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 8
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 4
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "none",
+    "depth": 8
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 4
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "weighted",
+    "depth": 8
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 4
+  },
+  {
+    "family": "lgbm",
+    "kind": "loghistory",
+    "handling": "smote",
+    "depth": 8
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "candidate_036",
+  "spec": {
+    "family": "logistic",
+    "kind": "interactions",
+    "C": 1,
+    "positive": false
+  },
+  "selection": {
+    "auc": 0.8127732395336833,
+    "ap": 0.20020974080993642,
+    "brier": 0.017070793577639416,
+    "precision_top10": 0.09805341783612494,
+    "recall_top10": 0.5098870056497176,
+    "mean": 0.02181871881815013
+  },
+  "seconds": 2.061218738555908
+}

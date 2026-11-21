@@ -1,0 +1,1105 @@
+[
+  {
+    "id": "candidate_000",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 0.01,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7023284265916069,
+      "ap": 0.03706973253187347,
+      "brier": 0.01877632846114934,
+      "precision_top10": 0.04101403349932096,
+      "recall_top10": 0.2132768361581921,
+      "mean": 0.02776827282998878
+    },
+    "seconds": 0.8188743591308594
+  },
+  {
+    "id": "candidate_001",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 0.01,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6468978839793655,
+      "ap": 0.03306649195010759,
+      "brier": 0.018858620501695764,
+      "precision_top10": 0.038207333635129015,
+      "recall_top10": 0.19868173258003766,
+      "mean": 0.028038988232842135
+    },
+    "seconds": 0.6543540954589844
+  },
+  {
+    "id": "candidate_002",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 0.1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7085156045777712,
+      "ap": 0.043522993247153426,
+      "brier": 0.018768975356906494,
+      "precision_top10": 0.04554096876414667,
+      "recall_top10": 0.23681732580037665,
+      "mean": 0.02677451239403429
+    },
+    "seconds": 1.077714204788208
+  },
+  {
+    "id": "candidate_003",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 0.1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6536790201342684,
+      "ap": 0.04278776413224767,
+      "brier": 0.01883203738172596,
+      "precision_top10": 0.04101403349932096,
+      "recall_top10": 0.2132768361581921,
+      "mean": 0.027201317582482645
+    },
+    "seconds": 1.011296272277832
+  },
+  {
+    "id": "candidate_004",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7253281482190799,
+      "ap": 0.06301711717356179,
+      "brier": 0.018555716515526614,
+      "precision_top10": 0.05477591670439113,
+      "recall_top10": 0.2848399246704331,
+      "mean": 0.02532818253965339
+    },
+    "seconds": 1.7333903312683105
+  },
+  {
+    "id": "candidate_005",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6606549318703582,
+      "ap": 0.06188508603920266,
+      "brier": 0.018641678404404755,
+      "precision_top10": 0.04273426889995473,
+      "recall_top10": 0.2222222222222222,
+      "mean": 0.02565840008332375
+    },
+    "seconds": 1.358947992324829
+  },
+  {
+    "id": "candidate_006",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 10,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7434751353806336,
+      "ap": 0.09061530586095842,
+      "brier": 0.018218882704893347,
+      "precision_top10": 0.06536894522408329,
+      "recall_top10": 0.339924670433145,
+      "mean": 0.02414893415300546
+    },
+    "seconds": 2.561204433441162
+  },
+  {
+    "id": "candidate_007",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 10,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6717395895941943,
+      "ap": 0.08426653036679886,
+      "brier": 0.018339451276316723,
+      "precision_top10": 0.04689904934359439,
+      "recall_top10": 0.243879472693032,
+      "mean": 0.02440843231391558
+    },
+    "seconds": 1.309814453125
+  },
+  {
+    "id": "candidate_008",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 100,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7561890947093155,
+      "ap": 0.11106278619486402,
+      "brier": 0.01798861610766238,
+      "precision_top10": 0.07116342236306021,
+      "recall_top10": 0.3700564971751412,
+      "mean": 0.023505105644562912
+    },
+    "seconds": 2.638779401779175
+  },
+  {
+    "id": "candidate_009",
+    "spec": {
+      "family": "logistic",
+      "kind": "minmax",
+      "C": 100,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6847779358444163,
+      "ap": 0.10117431611207096,
+      "brier": 0.01815103562872498,
+      "precision_top10": 0.052059755545495696,
+      "recall_top10": 0.2707156308851224,
+      "mean": 0.023748537350397513
+    },
+    "seconds": 1.5416796207427979
+  },
+  {
+    "id": "candidate_010",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 0.01,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7555069672756162,
+      "ap": 0.10812634796717603,
+      "brier": 0.018007042508243514,
+      "precision_top10": 0.07152557718424626,
+      "recall_top10": 0.371939736346516,
+      "mean": 0.023619903315806164
+    },
+    "seconds": 0.597083330154419
+  },
+  {
+    "id": "candidate_011",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 0.01,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6844434307108666,
+      "ap": 0.09919455866874441,
+      "brier": 0.018163505679670854,
+      "precision_top10": 0.052421910366681757,
+      "recall_top10": 0.2725988700564972,
+      "mean": 0.023874730478975176
+    },
+    "seconds": 0.5978703498840332
+  },
+  {
+    "id": "candidate_012",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 0.1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7604174424831803,
+      "ap": 0.11837755632706254,
+      "brier": 0.01791726740363421,
+      "precision_top10": 0.0736079674060661,
+      "recall_top10": 0.3827683615819209,
+      "mean": 0.023334526386229855
+    },
+    "seconds": 0.7855527400970459
+  },
+  {
+    "id": "candidate_013",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 0.1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6899694565602209,
+      "ap": 0.10794281766776498,
+      "brier": 0.018101497609898723,
+      "precision_top10": 0.05432322317790855,
+      "recall_top10": 0.2824858757062147,
+      "mean": 0.023569444873971116
+    },
+    "seconds": 0.6299641132354736
+  },
+  {
+    "id": "candidate_014",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7616443365377119,
+      "ap": 0.120887679103673,
+      "brier": 0.017897163404377456,
+      "precision_top10": 0.07369850611136261,
+      "recall_top10": 0.3832391713747646,
+      "mean": 0.023275287443153072
+    },
+    "seconds": 0.7809815406799316
+  },
+  {
+    "id": "candidate_015",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6912369190816335,
+      "ap": 0.10989810218558108,
+      "brier": 0.01808922154844069,
+      "precision_top10": 0.05468537799909461,
+      "recall_top10": 0.2843691148775895,
+      "mean": 0.023510994441126906
+    },
+    "seconds": 0.5753953456878662
+  },
+  {
+    "id": "candidate_016",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 10,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7617904595135566,
+      "ap": 0.12117439554895869,
+      "brier": 0.017894824408629068,
+      "precision_top10": 0.07378904481665913,
+      "recall_top10": 0.3837099811676083,
+      "mean": 0.02326821643202815
+    },
+    "seconds": 0.7100858688354492
+  },
+  {
+    "id": "candidate_017",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 10,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.6913784958161715,
+      "ap": 0.11009121472693888,
+      "brier": 0.018087870521997885,
+      "precision_top10": 0.05468537799909461,
+      "recall_top10": 0.2843691148775895,
+      "mean": 0.023504580788903637
+    },
+    "seconds": 0.5949981212615967
+  },
+  {
+    "id": "candidate_018",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 100,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.7618057194114801,
+      "ap": 0.12120752190851006,
+      "brier": 0.017894586361748146,
+      "precision_top10": 0.07378904481665913,
+      "recall_top10": 0.3837099811676083,
+      "mean": 0.023267513088705866
+    },
+    "seconds": 0.7646291255950928
+  },
+  {
+    "id": "candidate_019",
+    "spec": {
+      "family": "logistic",
+      "kind": "standard",
+      "C": 100,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.691392808218297,
+      "ap": 0.11011417228963398,
+      "brier": 0.018087734870402224,
+      "precision_top10": 0.05468537799909461,
+      "recall_top10": 0.2843691148775895,
+      "mean": 0.023503918435456916
+    },
+    "seconds": 0.6025657653808594
+  },
+  {
+    "id": "candidate_020",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 0.01,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8123434111072656,
+      "ap": 0.2029449539820685,
+      "brier": 0.017031365758592525,
+      "precision_top10": 0.09796287913082843,
+      "recall_top10": 0.5094161958568738,
+      "mean": 0.021693435055683573
+    },
+    "seconds": 0.5560312271118164
+  },
+  {
+    "id": "candidate_021",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 0.01,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.7606329977772618,
+      "ap": 0.1971838675519315,
+      "brier": 0.01720963656075061,
+      "precision_top10": 0.0869171570846537,
+      "recall_top10": 0.4519774011299435,
+      "mean": 0.021799812668970683
+    },
+    "seconds": 0.5849037170410156
+  },
+  {
+    "id": "candidate_022",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 0.1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8108832853118123,
+      "ap": 0.20082548177685589,
+      "brier": 0.017065743898058917,
+      "precision_top10": 0.09823449524671797,
+      "recall_top10": 0.5108286252354048,
+      "mean": 0.021639668220664415
+    },
+    "seconds": 0.5949268341064453
+  },
+  {
+    "id": "candidate_023",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 0.1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.7581207257073727,
+      "ap": 0.19515323368834953,
+      "brier": 0.01722755375410899,
+      "precision_top10": 0.08655500226346763,
+      "recall_top10": 0.4500941619585687,
+      "mean": 0.021762472450074163
+    },
+    "seconds": 0.5510821342468262
+  },
+  {
+    "id": "candidate_024",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.810697858645588,
+      "ap": 0.2005575035477934,
+      "brier": 0.017070554610345373,
+      "precision_top10": 0.09787234042553192,
+      "recall_top10": 0.5089453860640302,
+      "mean": 0.021634418328521473
+    },
+    "seconds": 0.6018717288970947
+  },
+  {
+    "id": "candidate_025",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 1,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.7577857033628139,
+      "ap": 0.19484304937147923,
+      "brier": 0.01723032691036886,
+      "precision_top10": 0.08655500226346763,
+      "recall_top10": 0.4500941619585687,
+      "mean": 0.021758706856612905
+    },
+    "seconds": 0.5126492977142334
+  },
+  {
+    "id": "candidate_026",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 10,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8106784697522136,
+      "ap": 0.2005314027078641,
+      "brier": 0.017071054388947342,
+      "precision_top10": 0.0977818017202354,
+      "recall_top10": 0.5084745762711864,
+      "mean": 0.02163390529171065
+    },
+    "seconds": 0.6316483020782471
+  },
+  {
+    "id": "candidate_027",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 10,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.7577500375347418,
+      "ap": 0.19480861055876705,
+      "brier": 0.0172306247792765,
+      "precision_top10": 0.08646446355817111,
+      "recall_top10": 0.449623352165725,
+      "mean": 0.021758288945137604
+    },
+    "seconds": 0.6001076698303223
+  },
+  {
+    "id": "candidate_028",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 100,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8106766616868374,
+      "ap": 0.20052947761458143,
+      "brier": 0.017071104561635943,
+      "precision_top10": 0.0977818017202354,
+      "recall_top10": 0.5084745762711864,
+      "mean": 0.021633854085449617
+    },
+    "seconds": 0.646449089050293
+  },
+  {
+    "id": "candidate_029",
+    "spec": {
+      "family": "logistic",
+      "kind": "loghistory",
+      "C": 100,
+      "positive": true
+    },
+    "selection": {
+      "auc": 0.7577463431703911,
+      "ap": 0.1948031473884862,
+      "brier": 0.01723065471326079,
+      "precision_top10": 0.08637392485287461,
+      "recall_top10": 0.4491525423728814,
+      "mean": 0.021758247409355072
+    },
+    "seconds": 0.5172419548034668
+  },
+  {
+    "id": "candidate_030",
+    "spec": {
+      "family": "logistic",
+      "kind": "spline",
+      "C": 0.01,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8211191041508938,
+      "ap": 0.2142777204067312,
+      "brier": 0.016869035091724542,
+      "precision_top10": 0.10620190131281122,
+      "recall_top10": 0.5522598870056498,
+      "mean": 0.021226015849844536
+    },
+    "seconds": 2.984443187713623
+  },
+  {
+    "id": "candidate_031",
+    "spec": {
+      "family": "logistic",
+      "kind": "spline",
+      "C": 0.1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8214869802603072,
+      "ap": 0.21381657791105863,
+      "brier": 0.01687144662175259,
+      "precision_top10": 0.10692621095518334,
+      "recall_top10": 0.5560263653483992,
+      "mean": 0.02121684196864736
+    },
+    "seconds": 5.753203630447388
+  },
+  {
+    "id": "candidate_032",
+    "spec": {
+      "family": "logistic",
+      "kind": "spline",
+      "C": 1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.822266047814567,
+      "ap": 0.21525126449282297,
+      "brier": 0.016858228827143218,
+      "precision_top10": 0.10710728836577636,
+      "recall_top10": 0.5569679849340866,
+      "mean": 0.021255190800268327
+    },
+    "seconds": 13.842380285263062
+  },
+  {
+    "id": "candidate_033",
+    "spec": {
+      "family": "logistic",
+      "kind": "spline",
+      "C": 10,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8226727364812169,
+      "ap": 0.216586956549805,
+      "brier": 0.016840183143043874,
+      "precision_top10": 0.10719782707107288,
+      "recall_top10": 0.5574387947269304,
+      "mean": 0.021242246893548835
+    },
+    "seconds": 22.64593267440796
+  },
+  {
+    "id": "candidate_034",
+    "spec": {
+      "family": "logistic",
+      "kind": "interactions",
+      "C": 0.01,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8160631752993791,
+      "ap": 0.20303008249000454,
+      "brier": 0.01703715011718739,
+      "precision_top10": 0.09913988229968311,
+      "recall_top10": 0.5155367231638418,
+      "mean": 0.021809777353873988
+    },
+    "seconds": 1.3923335075378418
+  },
+  {
+    "id": "candidate_035",
+    "spec": {
+      "family": "logistic",
+      "kind": "interactions",
+      "C": 0.1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8146375244427838,
+      "ap": 0.20127991459259997,
+      "brier": 0.017058309894038434,
+      "precision_top10": 0.098415572657311,
+      "recall_top10": 0.5117702448210922,
+      "mean": 0.02180811469356506
+    },
+    "seconds": 1.7706754207611084
+  },
+  {
+    "id": "candidate_036",
+    "spec": {
+      "family": "logistic",
+      "kind": "interactions",
+      "C": 1,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8127732395336833,
+      "ap": 0.20020974080993642,
+      "brier": 0.017070793577639416,
+      "precision_top10": 0.09805341783612494,
+      "recall_top10": 0.5098870056497176,
+      "mean": 0.02181871881815013
+    },
+    "seconds": 2.061218738555908
+  },
+  {
+    "id": "candidate_037",
+    "spec": {
+      "family": "logistic",
+      "kind": "interactions",
+      "C": 10,
+      "positive": false
+    },
+    "selection": {
+      "auc": 0.8124551982262044,
+      "ap": 0.2000581300309874,
+      "brier": 0.017072878615203752,
+      "precision_top10": 0.09796287913082843,
+      "recall_top10": 0.5094161958568738,
+      "mean": 0.02182101889979438
+    },
+    "seconds": 1.9667105674743652
+  },
+  {
+    "id": "candidate_038",
+    "spec": {
+      "family": "logistic",
+      "kind": "multiplicative",
+      "C": 100,
+      "positive": false,
+      "epsilon": 0
+    },
+    "selection": {
+      "auc": 0.6022487308945731,
+      "ap": 0.030379589852315952,
+      "brier": 0.019174202682099982,
+      "precision_top10": 0.031779085559076506,
+      "recall_top10": 0.1652542372881356,
+      "mean": 0.028052465135571726
+    },
+    "seconds": 0.34828615188598633
+  },
+  {
+    "id": "candidate_039",
+    "spec": {
+      "family": "logistic",
+      "kind": "multiplicative",
+      "C": 100,
+      "positive": false,
+      "epsilon": 0.05
+    },
+    "selection": {
+      "auc": 0.5962589797393061,
+      "ap": 0.029646206588371415,
+      "brier": 0.019153045111561386,
+      "precision_top10": 0.03123585332729742,
+      "recall_top10": 0.16242937853107345,
+      "mean": 0.028088601809629077
+    },
+    "seconds": 0.33165764808654785
+  },
+  {
+    "id": "candidate_040",
+    "spec": {
+      "family": "logistic",
+      "kind": "multiplicative",
+      "C": 100,
+      "positive": false,
+      "epsilon": 0.2
+    },
+    "selection": {
+      "auc": 0.5811789625891107,
+      "ap": 0.027799465545696747,
+      "brier": 0.01910315669072082,
+      "precision_top10": 0.02996831145314622,
+      "recall_top10": 0.15583804143126176,
+      "mean": 0.02811386548229694
+    },
+    "seconds": 0.31162190437316895
+  },
+  {
+    "id": "candidate_041",
+    "spec": {
+      "family": "logistic",
+      "kind": "multiplicative",
+      "C": 100,
+      "positive": false,
+      "epsilon": 0.5
+    },
+    "selection": {
+      "auc": 0.5581804535824069,
+      "ap": 0.025154515905569955,
+      "brier": 0.019056175721392146,
+      "precision_top10": 0.02616568583069262,
+      "recall_top10": 0.13606403013182675,
+      "mean": 0.02805596573137117
+    },
+    "seconds": 0.31725406646728516
+  },
+  {
+    "id": "candidate_042",
+    "spec": {
+      "family": "logistic",
+      "kind": "multiplicative",
+      "C": 100,
+      "positive": false,
+      "epsilon": 1
+    },
+    "selection": {
+      "auc": 0.5295288369389981,
+      "ap": 0.022479265668706002,
+      "brier": 0.01903429757746687,
+      "precision_top10": 0.023449524671797194,
+      "recall_top10": 0.121939736346516,
+      "mean": 0.02797565855189043
+    },
+    "seconds": 0.29297947883605957
+  },
+  {
+    "id": "candidate_043",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8364577746150541,
+      "ap": 0.22809606215483377,
+      "brier": 0.01664311447789569,
+      "precision_top10": 0.11398822996831146,
+      "recall_top10": 0.5927495291902072,
+      "mean": 0.021994906472062016
+    },
+    "seconds": 24.85753297805786
+  },
+  {
+    "id": "candidate_044",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8493648644462095,
+      "ap": 0.23651507322845583,
+      "brier": 0.016504012370252695,
+      "precision_top10": 0.11543684925305568,
+      "recall_top10": 0.6002824858757062,
+      "mean": 0.02120362790793419
+    },
+    "seconds": 44.91453576087952
+  },
+  {
+    "id": "candidate_045",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8417451032374037,
+      "ap": 0.22542146369244292,
+      "brier": 0.12235698044770874,
+      "precision_top10": 0.11444092349479403,
+      "recall_top10": 0.5951035781544256,
+      "mean": 0.30333644192584713
+    },
+    "seconds": 26.522751808166504
+  },
+  {
+    "id": "candidate_046",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8459413078682625,
+      "ap": 0.22317046999497958,
+      "brier": 0.1083041480824328,
+      "precision_top10": 0.11353553644182889,
+      "recall_top10": 0.5903954802259888,
+      "mean": 0.2691964548313989
+    },
+    "seconds": 40.87751364707947
+  },
+  {
+    "id": "candidate_047",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8419984627445696,
+      "ap": 0.22668034587901204,
+      "brier": 0.042330815319456344,
+      "precision_top10": 0.1136260751471254,
+      "recall_top10": 0.5908662900188324,
+      "mean": 0.13325240873688313
+    },
+    "seconds": 10.107130527496338
+  },
+  {
+    "id": "candidate_048",
+    "spec": {
+      "family": "rf",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8496805326678819,
+      "ap": 0.22720030706259828,
+      "brier": 0.039558112904526085,
+      "precision_top10": 0.11534631054775916,
+      "recall_top10": 0.5998116760828626,
+      "mean": 0.12448992270328947
+    },
+    "seconds": 17.44909429550171
+  },
+  {
+    "id": "candidate_049",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8529183626841454,
+      "ap": 0.23745645081975156,
+      "brier": 0.016493828202451606,
+      "precision_top10": 0.117428700769579,
+      "recall_top10": 0.6106403013182674,
+      "mean": 0.020667457953095436
+    },
+    "seconds": 3.97756290435791
+  },
+  {
+    "id": "candidate_050",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8531985171986307,
+      "ap": 0.23198275433231272,
+      "brier": 0.016568447158928794,
+      "precision_top10": 0.11543684925305568,
+      "recall_top10": 0.6002824858757062,
+      "mean": 0.02028326317667961
+    },
+    "seconds": 5.183389186859131
+  },
+  {
+    "id": "candidate_051",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8518967188203126,
+      "ap": 0.23189633451998556,
+      "brier": 0.11337539792345373,
+      "precision_top10": 0.11679492983250339,
+      "recall_top10": 0.6073446327683616,
+      "mean": 0.2652725577354431
+    },
+    "seconds": 4.028791427612305
+  },
+  {
+    "id": "candidate_052",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8397351386761803,
+      "ap": 0.21378338680272416,
+      "brier": 0.07969656842662536,
+      "precision_top10": 0.1104572204617474,
+      "recall_top10": 0.5743879472693032,
+      "mean": 0.19533464312553406
+    },
+    "seconds": 5.246044874191284
+  },
+  {
+    "id": "candidate_053",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8481387570739689,
+      "ap": 0.22996530683901573,
+      "brier": 0.03723834821231452,
+      "precision_top10": 0.1162516976007243,
+      "recall_top10": 0.6045197740112994,
+      "mean": 0.11739512532949448
+    },
+    "seconds": 2.0363917350769043
+  },
+  {
+    "id": "candidate_054",
+    "spec": {
+      "family": "xgb",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.844080328328678,
+      "ap": 0.22151627903899127,
+      "brier": 0.0346096503920611,
+      "precision_top10": 0.11063829787234042,
+      "recall_top10": 0.5753295668549906,
+      "mean": 0.10575393587350845
+    },
+    "seconds": 2.931595802307129
+  },
+  {
+    "id": "candidate_055",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8518453845410827,
+      "ap": 0.23436115454062792,
+      "brier": 0.016534661380086878,
+      "precision_top10": 0.1162516976007243,
+      "recall_top10": 0.6045197740112994,
+      "mean": 0.020627298882860398
+    },
+    "seconds": 2.7207822799682617
+  },
+  {
+    "id": "candidate_056",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "none",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8532041760955537,
+      "ap": 0.23199062058658224,
+      "brier": 0.0165622947976193,
+      "precision_top10": 0.11480307831598008,
+      "recall_top10": 0.5969868173258004,
+      "mean": 0.02035700537749204
+    },
+    "seconds": 3.4917056560516357
+  },
+  {
+    "id": "candidate_057",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8496429718482135,
+      "ap": 0.2309287661570217,
+      "brier": 0.11386672497627105,
+      "precision_top10": 0.11543684925305568,
+      "recall_top10": 0.6002824858757062,
+      "mean": 0.26698140260533965
+    },
+    "seconds": 2.4948718547821045
+  },
+  {
+    "id": "candidate_058",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "weighted",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.8457525041183904,
+      "ap": 0.2261388985869909,
+      "brier": 0.10279280374545352,
+      "precision_top10": 0.11425984608420099,
+      "recall_top10": 0.5941619585687382,
+      "mean": 0.24120398813015664
+    },
+    "seconds": 2.9355485439300537
+  },
+  {
+    "id": "candidate_059",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 4
+    },
+    "selection": {
+      "auc": 0.8461588820238037,
+      "ap": 0.22706018845933015,
+      "brier": 0.0371392752982991,
+      "precision_top10": 0.11462200090538706,
+      "recall_top10": 0.596045197740113,
+      "mean": 0.11709994303603236
+    },
+    "seconds": 1.9332504272460938
+  },
+  {
+    "id": "candidate_060",
+    "spec": {
+      "family": "lgbm",
+      "kind": "loghistory",
+      "handling": "smote",
+      "depth": 8
+    },
+    "selection": {
+      "auc": 0.842348740640741,
+      "ap": 0.2232297742302425,
+      "brier": 0.03464858296427604,
+      "precision_top10": 0.11090991398822997,
+      "recall_top10": 0.5767419962335216,
+      "mean": 0.10811133566268202
+    },
+    "seconds": 2.5028891563415527
+  }
+]

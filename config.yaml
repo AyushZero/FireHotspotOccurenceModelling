@@ -1,0 +1,105 @@
+# ============================================================
+# Physics-Guided Ignition Probability Modelling – Configuration
+# ============================================================
+
+# ------ Study Region (California) ------
+region:
+  name: "California"
+  california_mask: true
+  lat_min: 32.0
+  lat_max: 42.0
+  lon_min: -124.0
+  lon_max: -114.0
+
+# ------ Time Range ------
+time:
+  start: "2021-01-01"
+  end: "2023-12-31"
+  train_years: [2021]
+  val_years: [2022]
+  test_years: [2023]
+
+# ------ Grid ------
+grid:
+  resolution: 0.25   # degrees
+
+# ------ Physics Weights ------
+# Fuel dryness: F_dry = α1*(1 - NDWI~) + α2*(1 - RH~) + α3*(1 - SM~)
+alpha:
+  alpha1: 0.4   # canopy water deficit weight
+  alpha2: 0.3   # atmospheric dryness weight
+  alpha3: 0.3   # soil water deficit weight
+
+# Wind-slope spread: G_spread = 1 + β1*U~ + β2*θ~
+beta:
+  beta1: 0.6    # wind speed weight
+  beta2: 0.4    # slope weight
+
+# Fire history: H_history = γ1*FRP~_hist + γ2*Count~_hist
+gamma:
+  gamma1: 0.6   # FRP history weight
+  gamma2: 0.4   # hotspot count history weight
+
+# ------ FIRMS settings ------
+firms:
+  sliding_window_days: 7
+  decay_factor: 0.5          # exponential decay λ
+  confidence_filter: ["n", "h"]
+  type_filter: 0  # VIIRS presumed vegetation fire
+  map_key: ""
+
+# ------ ERA5 / CDS API ------
+era5:
+  variables:
+    - "2m_temperature"
+    - "2m_dewpoint_temperature"
+    - "10m_u_component_of_wind"
+    - "10m_v_component_of_wind"
+    - "volumetric_soil_water_layer_1"
+
+# ------ Paths ------
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  features: "data/features"
+  models: "models"
+  outputs: "outputs"
+
+# ------ Model Hyperparameters ------
+models:
+  logistic:
+    C: 1.0
+    max_iter: 1000
+    solver: "lbfgs"
+
+  random_forest:
+    n_estimators: 200
+    max_depth: 10
+    random_state: 42
+
+  xgboost:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.1
+    random_state: 42
+
+  lightgbm:
+    n_estimators: 200
+    max_depth: 6
+    learning_rate: 0.1
+    num_leaves: 31
+    random_state: 42
+
+# ------ SMOTE / Class Balancing ------
+smote:
+  target_ratio: 0.10
+  undersample_ratio: 0.30
+  k_neighbors: 3
+  random_state: 42
+
+# ------ Hyperparameter Tuning ------
+tuning:
+  enabled: false  # Set to true to enable GridSearchCV
+  cv_folds: 3
+  scoring: "roc_auc"
+
